@@ -7,7 +7,6 @@ import { WeatherComponent } from "./components/dashboard/weather/weather.compone
 import { CalendarComponent } from "./components/dashboard/calendar/calendar.component";
 import { DashboardComponent } from "./components/dashboard/dashboard.component";
 import { DayComponent } from "./components/dashboard/calendar/day/day.component";
-import { DatetimeComponent } from "./components/dashboard/calendar/datetime/datetime.component";
 import { TimeAndDateComponent } from "./components/dashboard/calendar/time-and-date/time-and-date.component";
 import { CurrentWeatherComponent } from "./components/dashboard/weather/current-weather/current-weather.component";
 import { DailyForecastComponent } from "./components/dashboard/weather/daily-forecast/daily-forecast.component";
@@ -19,7 +18,6 @@ import { DailyForecastComponent } from "./components/dashboard/weather/daily-for
         CalendarComponent,
         DashboardComponent,
         DayComponent,
-        DatetimeComponent,
         TimeAndDateComponent,
         CurrentWeatherComponent,
         DailyForecastComponent,
