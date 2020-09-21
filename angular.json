@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mann-overboard"
+    }
+  },
+  "defaultProject": "mann-overboard",
+  "cli": {
+    "analytics": false
+  }
 }
