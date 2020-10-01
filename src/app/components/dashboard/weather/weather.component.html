@@ -1,1 +1,17 @@
-<p>weather works!</p>
+<div class="weather">
+    <div>
+        <p>{{currentConditions.}}</p>
+        <p>Sunrise</p>
+        <span>Current Temp</span>
+        <span>Current weather image</span>
+    </div>
+    <div class="weather">
+        <div *ngFor="let forecast of forecasts" class="daily-forecast">
+            <span>
+                <p>{{forecast.Date}}</p>
+                <p>{{forecast.Temperature.Maximum.Value}} {{forecast.Temperature.Minimum.Value}}</p>
+            </span>
+            <a [href]="forecast.Link"><img [src]="getIconSrc(forecast.Day.Icon)" [alt]="forecast.Day.IconPhrase"></a>
+        </div>
+    </div>
+</div>

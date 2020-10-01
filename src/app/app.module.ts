@@ -8,8 +8,7 @@ import { CalendarComponent } from "./components/dashboard/calendar/calendar.comp
 import { DashboardComponent } from "./components/dashboard/dashboard.component";
 import { DayComponent } from "./components/dashboard/calendar/day/day.component";
 import { TimeAndDateComponent } from "./components/dashboard/calendar/time-and-date/time-and-date.component";
-import { CurrentWeatherComponent } from "./components/dashboard/weather/current-weather/current-weather.component";
-import { DailyForecastComponent } from "./components/dashboard/weather/daily-forecast/daily-forecast.component";
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
     declarations: [
@@ -19,10 +18,8 @@ import { DailyForecastComponent } from "./components/dashboard/weather/daily-for
         DashboardComponent,
         DayComponent,
         TimeAndDateComponent,
-        CurrentWeatherComponent,
-        DailyForecastComponent,
     ],
-    imports: [BrowserModule, AppRoutingModule],
+    imports: [BrowserModule, AppRoutingModule, HttpClientModule],
     providers: [],
     bootstrap: [AppComponent],
 })
